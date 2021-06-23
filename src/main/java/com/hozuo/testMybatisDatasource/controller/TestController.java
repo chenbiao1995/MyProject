@@ -41,6 +41,7 @@ public class TestController {
 
     @RequestMapping("/insert")
     public void insert() {
+        //test
         User user = new User();
         user.setId(new Random().nextInt());
         user.setUsername("ceshi");
